@@ -1,6 +1,6 @@
 services:
   details:
     build: .
-    image: ghcr.io/xhamsterse/bookinfo-details:prd
+    image: ghcr.io/xhamsterse/bookinfo-details:dev
     ports:
       - "9080:9080"
